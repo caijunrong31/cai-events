@@ -1,0 +1,36 @@
+{
+  "name": "cai-events",
+  "version": "1.0.0",
+  "description": "Node's event emitter for all engines.",
+  "keywords": [
+    "events",
+    "eventEmitter",
+    "eventDispatcher",
+    "listeners"
+  ],
+  "author": "caijunrong <2632423486@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/caijunrong31/cai-events.git",
+    "web": "https://github.com/caijunrong31/cai-events.git"
+  },
+  "bugs": {
+    "url": "http://github.com/caijunrong31/issues/"
+  },
+  "main": "./events.js",
+  "engines": {
+    "node": ">=0.8.x"
+  },
+  "devDependencies": {
+    "airtap": "^1.0.0",
+    "functions-have-names": "^1.2.1",
+    "has-symbols": "^1.0.1",
+    "isarray": "^2.0.5",
+    "tape": "^5.0.0"
+  },
+  "scripts": {
+    "test": "node tests/index.js",
+    "test:browsers": "airtap -- tests/index.js"
+  },
+  "license": "MIT"
+}
