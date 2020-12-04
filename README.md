@@ -17,13 +17,7 @@ You usually do not have to install `events` yourself! If your code runs in Node.
 But if none of those apply, with npm do:
 
 ```
-npm install cai-events
-```
-```
-or
-```
-```
-yar add cai-events
+npm install cai-events   or   yarn add cai-events
 ```
 
 ## Usage
